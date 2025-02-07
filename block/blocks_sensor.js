@@ -5,7 +5,7 @@ Blockly.Blocks['button_1_status'] = {
   init: function() {
     this.appendDummyInput()
         .appendField(new Blockly.FieldImage("/static/icons/sw12x12.png", 20, 20, "*"))
-        .appendField("button A is pressed");
+        .appendField("Switch 25 is pressed");
     this.setInputsInline(true);
     this.setOutput(true, "Boolean");
     this.setColour(90);
@@ -48,7 +48,7 @@ Blockly.Blocks['soil_Read_analog'] = {
     this.appendDummyInput()
         .appendField("Read Soil (Analog)")
         .appendField(" pin:")
-        .appendField(new Blockly.FieldDropdown([
+        .appendField(new Blockly.FieldDropdown([["39", "39"],["36", "36"],["35", "35"],["34", "34"],
                                               ["32", "32"],
                                               ["33", "33"],
                                               ["27", "27"],
@@ -81,7 +81,7 @@ Blockly.Blocks['LDR_Read_analog'] = {
     this.appendDummyInput()
         .appendField("Light LDR (Analog)")
         .appendField(" pin:")
-        .appendField(new Blockly.FieldDropdown([
+        .appendField(new Blockly.FieldDropdown([["39", "39"],["36", "36"],["35", "35"],["34", "34"],
                                               ["32", "32"],
                                               ["33", "33"],
                                               ["27", "27"],
